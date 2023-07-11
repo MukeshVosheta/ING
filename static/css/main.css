@@ -1,0 +1,138 @@
+* {
+    font-family: monospace;
+}
+
+
+body {
+    background: linear-gradient(20deg, rgb(145, 196, 196)80%, rgb(199, 198, 198));
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: #f1f1f1;
+}
+
+li a {
+    text-decoration: none;
+    color: #4e6464;
+    padding: 4px 5px;
+    font-size: large;
+
+}
+
+li a:hover {
+    border-radius: 4px;
+    background-color: #4e6464;
+    color: white;
+    box-shadow: -5px 5px 5px #4e6464;
+    text-shadow: #f1f1f1;
+    text-decoration: none;
+
+}
+
+
+
+.navbar{
+    padding-block:initial;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+}
+
+.navbar #logo{
+    float: left;
+    padding-left:15px;
+    font-weight: bold;
+    text-shadow: -5px 5px 10px  #9b9f9f;
+    background: -webkit-linear-gradient(20deg,rgb(74, 127, 121), rgb(139, 196, 198));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:35px;
+    size: 30px;
+
+}
+
+#search{
+    position: relative;
+    display:flex;
+    height: 28px;
+        
+}
+
+
+
+
+/* main div section decore done here */
+
+
+.main_container{
+    background-image: url("../img/bgimg.png");
+    width: 100%;
+    height:95vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:sticky;
+    color: #3c7c7c;
+    text-shadow:-1px 1px 5px #9b9f9f;
+    background-position: sticky;
+}
+
+.formlog{
+    padding-right: 20px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.ml-10{
+    margin-left: 30px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+
+#prom{
+    size-adjust:inherit;
+    height: 15px;
+    font-size: 10px;
+    float: inline-end;
+    color: rgba(255, 255, 255, 0.837);
+    text-shadow: -1px 5px 5px #4e6464;
+}
+
+
+.footer{
+    background: linear-gradient(20deg, rgb(145, 196, 196)80%, rgb(199, 198, 198));
+    background-repeat: no-repeat;
+    width:100%;
+    position:static;
+}
+
+#semail {
+    font-size:20px;
+    color: #57908e;
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+.title{
+    align-items: center;
+    
+}
+
+
+
+
+
+

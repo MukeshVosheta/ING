@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Email Varificaton{% endblock %}
+
+
+{% block main_content %}
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="display-4 mt-100 ml-10 ">Share your creativity to Innovate world with INNOVGALLERY</h1>
+        </div>
+        <div class="col-md-3">
+            <div class="card mt-100">
+                <div class="card-body">
+
+                    <form action="/email_validation" method="post/get" class="form formlog text-center">
+                        <label class="h4">OTP send to</label><br>
+                        <p id="semail">{{ u_email }}</p><br>
+                        <label class="h4">Enter OTP</label><br>
+                        <input type="text" name="otp" class="form-control"><br>
+                        <input type="submit" class="btn btn-primary btn-block btn-lg" value="Varify" action="#">
+                        <button name="send otp" class="btn btn-secondary">Re-send OTP</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
