@@ -5,8 +5,8 @@ import smtplib
 
 #________________________OTP generator and varification____________________________
 def otp_varify(reciver_mail):
-    e_send="sunkon.com@gmail.com"
-    e_pass="onhzthwwadfgjwzm"
+    e_send="sun"
+    e_pass="onhgjwzm"
     e_reci=reciver_mail
     otp=random.randint(100000,999999)
 
